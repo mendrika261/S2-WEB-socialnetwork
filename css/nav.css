@@ -1,0 +1,58 @@
+body {
+    width: 1500px;
+}
+
+.nav {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #5cb802;
+    width: 100%;
+    border-radius: 25px;
+    box-shadow: 0 0 5px #948B89;
+    overflow: hidden;
+}
+.nav div {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    padding: 0 50px;
+}
+
+.nav li {
+    display: inline-block;
+}
+.nav li a {
+    font-size: 26px;
+    padding: 10px;
+    vertical-align: bottom;
+    color: white;
+}
+.nav li a:hover {
+    color: #86317d;
+    text-shadow: 1px 1px 1px white;
+}
+
+.nav .search {
+    background-color: white;
+    padding: 2px;
+    border-radius: 30px;
+    overflow: hidden;
+}
+.nav .search input {
+    border: none;
+    margin: 0;
+    padding: 5px;
+}
+.nav .search button {
+    margin: 0;
+    background-color: #86317d;
+    color: white;
+    border: none;
+    padding: 10px 13px;
+    border-radius: 100%;
+}
+.nav .search button:hover {
+    cursor: pointer;
+    scale: 105%;
+}

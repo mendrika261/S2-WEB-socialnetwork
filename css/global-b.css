@@ -1,0 +1,12 @@
+body {
+    margin:0;
+}
+
+a {
+    color: #86317d;
+    text-decoration: inherit;
+}
+
+a:hover {
+    text-shadow: 0 1px #020849;
+}

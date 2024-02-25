@@ -1,0 +1,44 @@
+@font-face {
+  font-family: modernoF;
+  src: url(../font/moderno.ttf);
+}
+
+body {
+    margin:auto;
+    font-family: modernoF;
+    color: rgba(0, 0, 0, 0.9);
+    scroll-behavior: smooth;
+}
+
+a {
+    color: #5cb802;
+    text-decoration: inherit;
+}
+
+a:hover {
+    text-shadow: 0 1px #948B89;
+}
+
+h1, h2, h3 {
+    margin: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+.main {
+    margin: 30px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-left, .main-right {
+    min-width: 350px;
+    width: 350px;
+    height: 50px;
+}
+
+.main-content, .main-content-elem {
+    min-width: 700px;
+}

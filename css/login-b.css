@@ -1,0 +1,74 @@
+body {
+    background-color: rgba(0,0,0,0.9);
+    overflow: hidden;
+    background-image: url("../image/0.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+#login {
+    width: 380px;
+    background-color: azure;
+    height: 2000px;
+    position: relative;
+    font-family: "JetBrains Mono", "sans-serif";
+}
+
+.log {
+    padding: 10% 50px;
+}
+
+.sign-in {
+    padding: 3% 50px;
+}
+
+#login form {
+    margin: auto;
+    width: max-content;
+}
+
+label {
+    font-weight: bold;
+}
+
+input:not(.button, #remember) {
+    border: none;
+    border-radius: 30px;
+    padding: 15px 20px;
+    font-size: x-large;
+    margin: 15px 0 22px 0;
+    box-shadow: 0 0 5px #020849;
+    width: 85%;
+}
+
+.login-action {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 15px;
+    margin-top: 20px;
+}
+.login-action div:not(.login-submit) {
+    padding: 10px 0;
+}
+
+.login-error {
+    color: #E86252;
+    font-weight: bold;
+    text-align: center;
+}
+
+.button {
+    margin: 0;
+    border-radius: 30px;
+    border: none;
+    background-color: #86317d;
+    color: white;
+    padding: 15px 20px;
+    font-size: medium;
+    cursor: pointer;
+}
+.button:hover {
+    background-color: #020849;
+    box-shadow: 0 0 5px #86317d;
+}

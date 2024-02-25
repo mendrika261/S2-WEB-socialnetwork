@@ -1,0 +1,66 @@
+
+    .user-info, .user-friend, .main-content-elem, .user-suggestion {
+        position: relative;
+        box-shadow: 0 0 5px #948B89;
+        border-radius: 20px;
+    }
+    .user-info {
+        margin-top: 60px;
+    }
+    .user-img {
+        position: absolute;
+        margin: -50px 0 0 20px;
+    }
+    .user-img i, .user-friend-info i {
+        font-size: 50px;
+        color: white;
+        border-radius: 100%;
+        padding: 20px 25px;
+        border: 1px solid white;
+        box-shadow: 0 0 5px #948B89;
+    }
+
+    .user-info h1 {
+        padding: 40px 20px 0 0;
+        text-align: right;
+    }
+    .user-info ul {
+        background-color: #5cb802;
+        color:  white;
+        display: flex;
+        justify-content: space-between;
+        padding: 0 10px;
+        border-radius: 0 0 20px 20px;
+    }
+    .user-info li {
+        padding: 10px 5px;
+        text-align: center;
+        width: 110px;
+        font-weight: bold;
+    }
+    .user-info li i {
+        font-size: 40px;
+    }
+
+
+    .user-friend {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding: 10px;
+    }
+    .user-friend-info i {
+        scale: 80%;
+    }
+    .bg-purple {
+        background-color: #86317d;
+    }
+    .bg-green {
+        background-color: #5cb802;
+    }
+    .bg-grey {
+        background-color: grey;
+    }
+    .user-friend-info p {
+        margin: 0;
+    }

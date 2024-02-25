@@ -1,0 +1,49 @@
+   .main-content-elem {
+        padding: 20px;
+        margin: 0 20px;
+    }
+    .main-content-elem p {
+        text-align: justify;
+    }
+    .main-content-elem-image {
+        font-size: 200px;
+        text-align: center;
+    }
+
+
+    .main-content-elem-interaction ul {
+        margin: 0;
+    }
+    .main-content-elem-interaction .interaction-button {
+        display: flex;
+        justify-content: space-between;
+    }
+    .main-content-elem-interaction a {
+        color: white;
+    }
+    .interaction-button {
+        padding: 10px;
+        font-weight: bold;
+        font-size: 20px;
+    }
+
+    .comments {
+        background-color: white;
+    }
+    .comments textarea {
+        border: none;
+        width: 90%;
+    }
+    .add-comment {
+        box-shadow: 0 0 5px grey;
+    }
+    .comments button {
+        border: none;
+        background-color: white;
+        font-size: 40px;
+        color: #5cb802;
+        cursor: pointer;
+    }
+    .comments button:hover {
+        color: #86317d;
+    }
