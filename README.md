@@ -1,5 +1,5 @@
 # Overview
-A simple social network, friends, posts, comments... built in PHP, HTML, CSS.
+A simple social network, friends, posts, comments, auth... built in PHP, HTML, CSS.
 
 # Screen overview
 ## Home
@@ -10,6 +10,3 @@ A simple social network, friends, posts, comments... built in PHP, HTML, CSS.
 
 ## Friends
 ![Friends](screenshoot/screen3.png)
-
-## Sign up
-![Posts](screenshoot/screen4.png)
